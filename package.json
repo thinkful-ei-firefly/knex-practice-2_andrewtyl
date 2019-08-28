@@ -1,0 +1,29 @@
+{
+  "name": "knex-practice-2_andrewtyl",
+  "version": "1.0.0",
+  "description": "8-28 / Andrew Jessen-Tyler / Building Services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/practice.js",
+    "test": "mocha --require test/setup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "knex": "^0.19.2",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
