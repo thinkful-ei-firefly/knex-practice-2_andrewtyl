@@ -7,7 +7,8 @@
     "start": "node src/blogful.js",
     "test": "mocha --require test/setup.js",
     "assignment": "node src/shopping-list-access.js",
-    "testAssignment": "mocha test/shopping-list-service.spec.js --require test/setup.js"
+    "testAssignment": "mocha test/shopping-list-service.spec.js --require test/setup.js",
+    "testExample": "mocha test/articles-service.spec.js --require test/setup.js"
   },
   "keywords": [],
   "author": "",
