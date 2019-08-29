@@ -1,6 +1,5 @@
 'use strict';
 const knex = require('knex');
-const app = require('../src/articles-service');
 const ArticlesService = require('../src/articles-service');
 
 describe(`Articles service object`, function () {

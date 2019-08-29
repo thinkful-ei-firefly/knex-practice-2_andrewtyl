@@ -7,7 +7,7 @@ const ArticlesService = require('./articles-service')
 
 const knexInstance = knex({
   client: 'pg',
-  connection: process.env.DB_URL,
+  connection: process.env.TEST_DB_URL,
 })
 
 // use all the ArticlesService methods!!
