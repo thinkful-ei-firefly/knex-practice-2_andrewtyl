@@ -3,7 +3,6 @@
 'use strict';
 
 const env = require('dotenv').config();
-
 const knex = require('knex');
 
 const knexInstance = knex({
